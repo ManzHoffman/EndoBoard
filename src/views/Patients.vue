@@ -7,7 +7,7 @@
             <div
               class="bg-gradient-success shadow-success border-radius-lg pt-4 pb-3"
             >
-              <h6 class="text-white text-capitalize ps-3">Authors table</h6>
+              <h6 class="text-white text-capitalize ps-3">Patients</h6>
             </div>
           </div>
           <div class="card-body px-0 pb-2">
@@ -82,6 +82,10 @@
                       </a>
                     </td>
                   </tr>
+                  <!--
+
+
+            
                   <tr>
                     <td>
                       <div class="d-flex px-2 py-1">
@@ -297,13 +301,28 @@
                       </a>
                     </td>
                   </tr>
+                        -->
                 </tbody>
               </table>
             </div>
           </div>
         </div>
       </div>
+      <div class="col-lg-3 col-sm-6 col-12">
+                <button
+                  class="btn bg-gradient-success w-100 mb-0 toast-btn"
+                  type="button"
+                  data-target="successToast"
+                  @click="snackbar = 'success'"
+                >
+                  Add patient
+                </button>
+              </div>
+
     </div>
+    <!--
+
+ 
     <div class="row">
       <div class="col-12">
         <div class="card my-4">
@@ -663,14 +682,32 @@
               </table>
             </div>
           </div>
+
         </div>
       </div>
     </div>
+       -->
   </div>
 </template>
 
 <script>
 export default {
-  name: "tables",
+  name: "patients",
+  beforeMount() {
+ 
+  },
+  methods: {
+
+    addPatient()
+    {
+
+      
+    }
+
+
+    //...mapMutations(["toggleEveryDisplay", "toggleHideConfig"]),
+  },
+
+
 };
 </script>

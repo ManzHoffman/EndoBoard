@@ -22,14 +22,29 @@
           url="#"
           :aria-controls="''"
           v-bind:collapse="false"
-          collapseRef="tables"
-          navText="Tables"
+          collapseRef="patients"
+          navText="Patients"
         >
           <template v-slot:icon>
             <i class="material-icons-round opacity-10 fs-5">table_view</i>
           </template>
         </sidenav-collapse>
       </li>
+
+      <li class="nav-item">
+        <sidenav-collapse
+          url="#"
+          :aria-controls="''"
+          v-bind:collapse="false"
+          collapseRef="newpatient"
+          navText="Add patient"
+        >
+          <template v-slot:icon>
+            <i class="material-icons-round opacity-10 fs-5">receipt_long</i>
+          </template>
+        </sidenav-collapse>
+      </li>
+      <!--
       <li class="nav-item">
         <sidenav-collapse
           url="#"
@@ -43,6 +58,8 @@
           </template>
         </sidenav-collapse>
       </li>
+      -->
+    <!--
       <li class="nav-item">
         <sidenav-collapse
           url="#"
@@ -58,6 +75,8 @@
           </template>
         </sidenav-collapse>
       </li>
+          -->
+             <!--
       <li class="nav-item">
         <sidenav-collapse
           url="#"
@@ -71,6 +90,7 @@
           </template>
         </sidenav-collapse>
       </li>
+        -->
       <li class="mt-3 nav-item">
         <h6
           class="text-xs ps-4 text-uppercase font-weight-bolder text-white"
@@ -105,6 +125,7 @@
           </template>
         </sidenav-collapse>
       </li>
+         <!--
       <li class="nav-item">
         <sidenav-collapse
           url="#"
@@ -113,12 +134,15 @@
           collapseRef="sign-up"
           navText="SignUp"
         >
+        
           <template v-slot:icon>
             <i class="material-icons-round opacity-10 fs-5">assignment</i>
           </template>
         </sidenav-collapse>
       </li>
+        -->
     </ul>
+        <!--
     <div class="sidenav-footer position-absolute w-100 bottom-0">
       <div class="mx-3">
         <a
@@ -129,8 +153,11 @@
         >
       </div>
     </div>
+       -->
   </div>
+
 </template>
+ 
 <script>
 import SidenavCollapse from "./SidenavCollapse.vue";
 

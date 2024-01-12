@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
-import Tables from "../views/Tables.vue";
+import Patients from "../views/Patients.vue";
+import AddPatient from "../views/AddPatient.vue";
 import Billing from "../views/Billing.vue";
 import RTL from "../views/Rtl.vue";
 import Notifications from "../views/Notifications.vue";
@@ -20,15 +21,20 @@ const routes = [
     component: Dashboard,
   },
   {
-    path: "/tables",
-    name: "Tables",
-    component: Tables,
+    path: "/patients",
+    name: "Patients",
+    component: Patients,
+  },
+  {
+    path: "/newpatient",
+    name: "AddPatient",
+    component: AddPatient,
   },
   {
     path: "/billing",
     name: "Billing",
     component: Billing,
-  },
+  }, 
   {
     path: "/rtl-page",
     name: "RTL",
