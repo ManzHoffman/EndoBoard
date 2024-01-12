@@ -42,13 +42,6 @@
                   <tr>
                     <td>
                       <div class="d-flex px-2 py-1">
-                        <div>
-                          <img
-                            src="../assets/img/team-2.jpg"
-                            class="avatar avatar-sm me-3 border-radius-lg"
-                            alt="user1"
-                          />
-                        </div>
                         <div class="d-flex flex-column justify-content-center">
                           <h6 class="mb-0 text-sm">John Michael</h6>
                           <p class="text-xs text-secondary mb-0">
@@ -308,16 +301,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-sm-6 col-12">
-                <button
-                  class="btn bg-gradient-success w-100 mb-0 toast-btn"
-                  type="button"
-                  data-target="successToast"
-                  @click="snackbar = 'success'"
-                >
-                  Add patient
-                </button>
-              </div>
+
 
     </div>
     <!--
